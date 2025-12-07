@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Monu Bairwa – Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div class="logo">
+        <div class="logo-mark">MB</div>
+        <span class="logo-text">Monu Bairwa</span>
+      </div>
+      <nav class="nav">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#cred">Credentials</a>
+        <a href="#certs">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-left">
+        <p class="eyebrow">PORTFOLIO</p>
+        <h1>Hi, I'm <span>Monu Bairwa</span>,</h1>
+        <h2>and I'm a Web Developer in progress.</h2>
+        <p class="hero-body">
+          B.Tech CSE student, interested in front-end development, Python and cyber security.
+          I like building clean, minimal interfaces and learning how real products are made.
+        </p>
+        <a href="#contact" class="btn hero-btn">
+          WORK WITH ME
+          <span class="btn-arrow">→</span>
+        </a>
+      </div>
+      <div class="hero-right">
+        <!-- Yahan apna image use kar sakte ho -->
+        <div class="hero-art"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="wrap about-inner">
+      <div class="about-text">
+        <h3>About Monu Bairwa</h3>
+        <p>
+          I am a Computer Science student with growing experience in front-end web development.
+          I’m learning HTML, CSS, JavaScript and Python, and exploring ethical hacking and cyber security.
+        </p>
+        <p>
+          My goal is to work on real-world web projects, understand how tech teams work,
+          and keep improving my skills step by step.
+        </p>
+      </div>
+      <div class="about-image">
+        
+        <img src="photo.jpg" alt="Working at desk">
+      </div>
+    </div>
+  </section>
+
+  <!-- CREDENTIALS -->
+  <section class="section cred" id="cred">
+    <div class="wrap cred-inner">
+      <div class="cred-left-art"></div>
+      <div class="cred-right">
+        <h3 class="cred-title">Credentials</h3>
+        <div class="cred-grid">
+          <div class="cred-col">
+            <h4>Education</h4>
+            <p>B.Tech – Computer Science Engineering<br>Bal Krishna Institute of Technology<br>2023 – Present</p>
+          </div>
+          <div class="cred-col">
+            <h4>Skills</h4>
+            <p>HTML &amp; CSS<br>Basic JavaScript &amp; Python<br>Responsive Design<br>Git &amp; GitHub basics</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- “CERTIFICATION” -->
+  <section class="section certs" id="certs">
+    <div class="wrap">
+      <h3 class="section-title">Certifications</h3>
+      <div class="card-grid">
+
+
+  <a href="https://github.com/monu7852/my_portfolio/raw/main/Certificate1.jpg" target="_blank" class="card">
+    <img src="azure.jpg">
+    <div class="card-overlay">
+      <h4>Edunet Foundation – AICTE - Microsoft</h4>
+      <p>Completion certificate of 4-weeks AI & Azure Internship.</p>
+    </div>
+  </a>
+
+  <a href="https://github.com/monu7852/my_portfolio/raw/main/Certificate2.jpg" target="_blank" class="card">
+    <img src="web_dev.jpg">
+    <div class="card-overlay">
+      <h4>IBM SkillsBuild</h4>
+      <p>Participation Certificate of Front-end Development.</p>
+    </div>
+  </a>
+
+  <a href="https://github.com/monu7852/my_portfolio/raw/main/Certificate3.jpg" target="_blank" class="card">
+    <img src="cyber.jpg">
+    <div class="card-overlay">
+      <h4>Deloitte – Cyber Job Simulation</h4>
+      <p>Hands-on Cybersecurity Simulation tasks.</p>
+    </div>
+  </a>
+
+</div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="wrap contact-inner">
+      <div>
+        <h3>Work with Me</h3>
+        <p class="contact-sub">
+          Book a free conversation or just say hi.
+        </p>
+        <p class="contact-email">
+          <span>hello:</span><br>
+          <a href="mailto:monuvarma4813@gmail.com">monuvarma4813@gmail.com</a>
+        </p>
+      </div>
+      <div class="contact-art"></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span>© <span id="year"></span> Monu Bairwa</span>
+    </div>
+  </footer>
+
+  <script>
+    // sirf year set karne ke liye chhota JS, koi tension wali cheez nahi
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
